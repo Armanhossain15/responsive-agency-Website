@@ -31,10 +31,10 @@ header {
 /* navbar */
 /* banner */
 .banner{
-    background-image:linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0,.4)),url("asset/image/background.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0,.5)),url("asset/image/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 85vh;
+    height: 90vh;
     text-align: center;
     display: flex;
     align-items: center;
@@ -59,6 +59,7 @@ header {
     padding: 20px 40px;
     border-radius: 0;
     font-size: 17px;
+    margin-top: 20px;
 }
 #first-btn{
     background-color: #e30707;
@@ -96,6 +97,35 @@ header {
         margin-right: 20px;
     }
     /* navbar */
+    /* banner */
+    .banner{
+        height: 62vh;
+    }
+    .banner-text{
+        width: 100%;
+    }
+    .banner-text h1{
+        font-size: 3em;
+    }
+    .banner-text button{
+        display: block;
+    }
+    .banner-text p{
+        font-size: 18px;
+        line-height: 25px;
+        padding: 0 31px;
+    }
+    .banner-text button{
+        padding: 20px 93px;
+    }
+    
+    #first-btn {
+        margin: 16px auto;
+    }
+    #second-btn {
+        margin: 16px auto;
+    }
+    /* banner */
 }
 /* ---------------------------------------for mobile */
 
