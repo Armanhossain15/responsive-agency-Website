@@ -29,7 +29,48 @@ header {
     margin-right: 30px;
 }
 /* navbar */
+/* banner */
+.banner{
+    background-image:linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0,.4)),url("asset/image/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.banner-text{
+    color: #ffffff;
+    width: 52%;
+}
+.banner-text h1{
+    font-size: 6em;
+}
+.banner-text span{
+    color: #e30707;
+} 
+.banner-text p{
+    font-size: 24px;
+    line-height: 30px;
+}
+.banner-text button{
+    padding: 20px 40px;
+    border-radius: 0;
+    font-size: 17px;
+}
+#first-btn{
+    background-color: #e30707;
+    color: white;
+    border: none;
+}
+#second-btn{
+    color: #e30707;
+    border: none;
+}
 
+/* banner */
 
 
 
