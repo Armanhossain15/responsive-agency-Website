@@ -48,31 +48,95 @@ header {
 .banner-text h1{
     font-size: 6em;
 }
-.banner-text span{
+span{
     color: #e30707;
 } 
 .banner-text p{
     font-size: 24px;
     line-height: 30px;
+   
+}
+.left-side ul li{
+    font-size: 16px;
+    margin-bottom: 8px;
 }
 .banner-text button{
     padding: 20px 40px;
     border-radius: 0;
     font-size: 17px;
     margin-top: 20px;
+    transition: .5s;
 }
 #first-btn{
     background-color: #e30707;
     color: white;
     border: none;
 }
+#first-btn:hover{
+    background-color: #ffffff;
+    color: #e30707;
+    transition: .5s;
+}
 #second-btn{
     color: #e30707;
     border: none;
 }
+#second-btn:hover{
+    background-color: #e30707;
+    color: #ffffff;
+    transition: .5s;
+}
 
 /* banner */
+/* service */
+.service-section{
+    background-image:linear-gradient(360deg, rgba(0, 0, 0, .9), rgba(0, 0, .1)), url("asset/image/footer-bg.png");
+   color: white;
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+   padding: 200px 0;
+}
+.service{
+    width: 1180px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 650px 350px;
+   justify-content: space-between;
+   align-items: center;
 
+   
+}
+.left-side button{
+    padding: 15px 30px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+.left-side h1 {
+    font-size: 40px;
+}
+.left-side p {
+    font-size: 22px;
+    margin: 17px 0;
+    width: 50%;
+  }
+.right-side{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    color: rgb(0, 0, 0);
+}
+.service-div{
+    background-color: #ffffff;
+    margin: 7px;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0 0 10px #fff;
+    border-radius: 5px;
+}
+.service-div img{
+    width: 50%;
+}
+/* service */
 
 
 
