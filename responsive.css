@@ -1,0 +1,92 @@
+/* make website responsive */
+/* ---------------------------------------for mobile */
+
+
+@media screen  and (max-width:576px){
+    /* navbar */
+    .navbar{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        padding: 28px 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .menu{
+        margin-top: 8px;
+    }
+    .navbar .menu ul li a{
+        margin-right: 20px;
+    }
+    /* navbar */
+    /* banner */
+    .banner{
+        height: 62vh;
+    }
+    .banner-text{
+        width: 100%;
+    }
+    .banner-text h1{
+        font-size: 3em;
+    }
+    .banner-text button{
+        display: block;
+    }
+    .banner-text p{
+        font-size: 18px;
+        line-height: 25px;
+        padding: 0 31px;
+    }
+    .banner-text button{
+        padding: 20px 93px;
+    }
+    
+    #first-btn {
+        margin: 16px auto;
+    }
+    #second-btn {
+        margin: 16px auto;
+    }
+    /* banner */
+    .service-section{
+        padding: 50px 0;
+    }
+    .service{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .left-side{
+        margin-left: 20px;
+    }
+    .left-side p{
+        width: 90%;
+    }
+    .right-side{
+        grid-template-columns: repeat(2,1fr);
+        margin: 30px 20px 0;
+        
+    }
+}
+/* ---------------------------------------for mobile */
+
+/* ---------------------------------------------------------for teblet */
+@media screen  and (min-width:577px) and  (max-width:992px){
+    /* navbar */
+    .navbar{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        padding: 28px 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .menu{
+        margin-top: 8px;
+    }
+    .navbar .menu ul li a{
+        margin-right: 20px;
+    }
+    /* navbar */
+}
+/* ---------------------------------------------------------for teblet */
+
+
+/* make website responsive */
